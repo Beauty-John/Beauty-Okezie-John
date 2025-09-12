@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary nv">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold fs-600 tr" href="#" >Tr<span>avel</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse home" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active hm" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#destinations">Destinations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link "  href="#Services">Our Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link "  href="#Contact">Contact Us</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/> -->
+        <button class="btn btn-outline-success" type="submit">Sign Up</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!-- carousel -->
+       <div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  </div>
+  <h1>Visit The Most Beautiful Places In The World</h1>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/egypt-484_1280.jpg" class="d-block w-100" alt="Egypt">
+    </div>
+    <div class="carousel-item">
+      <img src="img/greece-6773682_1280.jpg" class="d-block w-100" alt="greece">
+    </div>
+    <div class="carousel-item">
+      <img src="img/snow-mountain-9614087_1280.jpg" class="d-block w-100" alt="snow-mountain">
+    </div>
+    <div class="carousel-item">
+      <img src="img/carnival-1492099_1280.jpg" class="d-block w-100" alt="carnival">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+<!-- main container -->
+        <div class="container">
+              <h1 class="text-center p-5 mb-5 mt-5 ">We Provide World Top Destinations For You!</h1>
+                    <div class="w-100 bg-dark-subtle p-5 mb-5">
+
+                        <div class="row">
+                            <div class="col">
+                                
+                                <img src="img/forest-5038025_1280.jpg" class="img-fluid" alt="...">
+                            </div>
+                        </div>
+                        <p>A Place Where You Can Enjoy Nature And The World Without Breaking The Bank.</p>
+                        <button type="button" class="btn btn-primary btn-lg">Book Your Trip Now</button>
+                    </div>
+                    <h2 id="destinations" class="fs-1 p-5 mt-5 mb-5 text-center">POPULAR DESTINATIONS</h2>
+
+                    <div class="row">
+                        <div class="col">
+                            <!-- card 1 -->
+                             <div class="card" >
+  <img src="img/great-wall-of-china-2030311_1280.jpg" class="card-img-top" alt="great wall">
+  <div class="card-body">
+    <h5 class="card-title">Great Wall Of China</h5>
+    <p class="card-text">Come relax and enjoy the historical buildin that holds memories</p>
+    <a href="#" class="btn btn-primary">Read More</a>
+  </div>
+</div>
+                        </div>
+
+                         <div class="col">
+                            <!-- card 2 -->
+                             <div class="card" >
+  <img src="img/snow-mountain-9614087_1280.jpg" class="card-img-top" alt="snow">
+  <div class="card-body">
+    <h5 class="card-title">A Visit To The Mountain</h5>
+    <p class="card-text">Come And Witness Nature Itself And At Its Peak.</p>
+    <a href="#" class="btn btn-primary">Read More</a>
+  </div>
+</div>
+                        </div>
+
+                         <div class="col">
+                            <!-- card 3-->
+                             <div class="card" >
+  <img src="img/egypt-484_1280.jpg" class="card-img-top" alt="egypt">
+  <div class="card-body">
+    <h5 class="card-title">Pyramid of Egypt</h5>
+    <p class="card-text">Come Visit And Explore The Wonderful Wonders Of Egypt</p>
+    <a href="#" class="btn btn-primary">Read More</a>
+  </div>
+</div>
+                        </div>
+
+                         <div class="col">
+                            <!-- card 3-->
+                             <div class="card" >
+  <img src="img/niagara-falls-2399958_1280.jpg" class="card-img-top" alt="egypt">
+  <div class="card-body">
+    <h5 class="card-title">Niagara Falls</h5>
+    <p class="card-text">Come And Enjoy Nature Live And Direct.</p>
+    <a href="#" class="btn btn-primary">Read More</a>
+  </div>
+</div>
+                        </div>
+
+                   
+
+                    
+                    </div>
+        </div>
+
+
+
+<!-- about us -->
+
+          
+          <h2 id="destinations" class="fs-1 p-5 mt-5 mb-5 text-center">Our Services</h2>
+                         <div class="row">
+                            <div class="col-6">
+                                <div class="bg-secondary text-white p-5 mt-5 mb-5">
+                                    <h2>Accomodation</h2>
+                                    <p>We find you a perfect place to stay.</p>
+                                </div>
+                            </div>
+
+                                                        <div class="col-6">
+                                <div class="bg-dark-subtle p-5 mt-5 mb-5">
+                                    <h2>Fees</h2>
+                                    <p>We Provide Best Tour Packages In Your Budget.</p>
+                                </div>
+                            </div>
+
+                                                        <div class="col-6">
+                                <div class="bg-dark-subtle p-5 mt-5 mb-5">
+                                    <h2>Guideing Tours</h2>
+                                    <p>We have the best tour guides that will make you enjoy your stay.</p>
+                                </div>
+                            </div>
+
+                                                        <div class="col-6">
+                                <div class="bg-secondary text-white p-5 mt-5 mb-5">
+                                    <h2>Travel Planning</h2>
+                                    <p>We Custom Travel Plans Tailored To Your Needs.</p>
+                                </div>
+                            </div>
+                         </div>
+
+
+
+            <!-- contact us -->
+
+               <h2 id="destinations" class="fs-1 p-5 mt-5 mb-5 text-center">Contact Us</h2>
+
+                           <div class="w-100 bg-dark-subtle p-5 mb-5 text-center">
+                        <p>For Bookings And More Contact Us On:+234 098 876 7654
+                        </p>
+                        <button type="button" class="btn btn-primary btn-lg"><a href="#" class="text-white text-decoration-none">Contact Us For More Information</a></button>
+                    </div>
+                    
+
+
+
+                              <footer class="bg-dark mt-5 p-5 text-white text-center">
+                                &copy;2025 Travelity, All Rights Reserved.
+                              </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
